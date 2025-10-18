@@ -106,7 +106,10 @@ body {
     transition: all 0.4s ease;
 }
 
-.btn {
+.btn-first {
+    font-size: 15px;
+    background-color: #233fe2;
+    color: white;
     width: 166px;
     height: 50px;
     padding: 15px 30px;
@@ -118,23 +121,25 @@ body {
     border: none;
 }
 
-.btn-primary {
-    font-size: 15px;
-    background-color: #233fe2;
-    color: white;
-}
-
-.btn-primary:hover {
+.btn-first:hover {
     box-shadow: 0 4px 10px #576ce6;
 }
 
-.btn-secondary {
+.btn-second {
     font-size: 15px;
     background-color: white;
     border: 1px solid #ffb0b1;
+    width: 166px;
+    height: 50px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-family: "Lato";
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.btn-secondary:hover {
+.btn-second:hover {
     border-color: #9e0205;
     box-shadow: 0 4px 10px #ffb0b1;
 }
@@ -197,4 +202,5 @@ body.loaded .partners-block {
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 2.3s;
+
 }
